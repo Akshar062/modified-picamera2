@@ -2,6 +2,7 @@ name: flake8
 on:
   pull_request:
     branches: [ main, next ]
+  workflow_dispatch:
 jobs:
   compile:
     name: compile libcamera
